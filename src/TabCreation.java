@@ -9,7 +9,7 @@ public class TabCreation {
         // Database connection details
         String jdbcUrl = "jdbc:mysql://localhost:3306/advjava";
         String username = "root";
-        String password = "rajat123";
+        String password = "rajat";
 
         // SQL statements
         String createTableSQL = """

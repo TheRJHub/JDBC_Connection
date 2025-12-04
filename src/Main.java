@@ -8,7 +8,7 @@ public class Main{
         // Replace with your actual database details
         String jdbcUrl = "jdbc:mysql://localhost:3306/advjava";
         String username = "root";
-        String password = "rajat123";
+        String password = "rajat";
 
         System.out.println("Checking SQL Database Connectivity...");
 

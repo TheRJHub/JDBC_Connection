@@ -10,7 +10,7 @@ public class ConnectToDB {
             Class.forName("com.mysql.cj.jdbc.Driver");//create obj for class-internally it is using reflexion api
             //class.forname()-unchecked exception- so ClassNotFoundException is there
             //2nd step: establish connection
-            Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/advjava?user=root && password=rajat123");//this is a static query ?-task, what is sql injection ?
+            Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/advjava?user=root && password=rajat");//this is a static query ?-task, what is sql injection ?
             //Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/advjava", "root", "rajat123");
            //getConnection()-return type is connection
             System.out.println(connection);
