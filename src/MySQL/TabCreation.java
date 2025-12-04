@@ -1,3 +1,5 @@
+package MySQL;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -9,7 +11,7 @@ public class TabCreation {
         // Database connection details
         String jdbcUrl = "jdbc:mysql://localhost:3306/advjava";
         String username = "root";
-        String password = "rajat";
+        String password = "****";
 
         // SQL statements
         String createTableSQL = """

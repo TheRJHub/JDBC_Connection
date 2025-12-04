@@ -1,10 +1,12 @@
+package MySQL;
+
 import java.sql.*;
 
 public class SeeTab{
     public static void main(String[] args) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/advjava";
         String username = "root";
-        String password = "rajat";
+        String password = "***";
 
         String selectDataSQL = "SELECT * FROM employees";
         try (Connection conn = DriverManager.getConnection(jdbcUrl, username, password);
